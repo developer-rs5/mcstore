@@ -1,4 +1,5 @@
 // Function to fetch the number of players online from the server API
+alert('test');
 function getPlayersOnline() {
     const serverIp = "play.zenuxs.xyz"; // The Minecraft server IP
     const apiUrl = `https://mcapi.us/server/status?ip=${serverIp}`; // mcapi.us API URL
