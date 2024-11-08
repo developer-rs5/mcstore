@@ -29,3 +29,6 @@ function getPlayersOnline() {
 
 // Call the function to get the player count
 getPlayersOnline();
+document.querySelector(".srvonline").textContent = "geting stats...";
+
+}
